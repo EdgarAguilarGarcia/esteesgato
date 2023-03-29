@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "prestart": "npm run build",
+"build": "npx vite build",
+"start": "node index.js",
     "preview": "vite preview"
   },
   "devDependencies": {
